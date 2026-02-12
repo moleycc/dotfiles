@@ -7,7 +7,7 @@ return {
   },
   {
     'nvim-lualine/lualine.nvim',
-    options = { theme = "everforest" },
+    options = { theme = "tomorrow_night" },
     config = function()
       require("lualine").setup()
     end

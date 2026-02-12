@@ -13,6 +13,10 @@ alias venv="source .venv/bin/activate.fish"
 alias vim="nvim"
 alias vi="nvim"
 
+# emacs
+alias e="emacsclient -n"
+alias et="emacsclient -t"
+
 # love
 alias love="/Applications/love.app/Contents/MacOS/love"
 
