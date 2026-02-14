@@ -19,3 +19,11 @@ vim.o.breakindent = true   -- Enable break indent
 vim.o.undofile = true      -- Save undo history
 vim.o.updatetime = 250     -- Decrease update time
 vim.o.timeoutlen = 300     -- Decrease mapped sequence wait time
+
+--- MARKDOWN TEXT WRAPPING ---
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = "markdown",
+  callback = function()
+    vim.opt_local.textwidth = 120
+  end,
+})

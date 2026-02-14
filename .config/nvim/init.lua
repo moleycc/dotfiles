@@ -6,4 +6,4 @@ require("config.options")
 vim.cmd("colorscheme tokyonight-night")
 
 --- LSP CONFIG ---
-vim.lsp.enable({ "lua_ls", "rust_analyzer", "basedpyright", "gopls" })
+vim.lsp.enable({ "lua_ls", "rust_analyzer", "basedpyright", "gopls", "clangd" })
