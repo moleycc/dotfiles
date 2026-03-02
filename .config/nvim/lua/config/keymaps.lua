@@ -17,9 +17,9 @@ vim.keymap.set("n", "<leader>q", "<C-w><C-q>")
 vim.keymap.set("n", "<leader>sv", "<CMD>vsplit<CR>")
 vim.keymap.set("n", "<leader>sh", "<CMD>split<CR>")
 
--- telescope
-vim.keymap.set("n", "<leader>fg", "<CMD>Telescope live_grep<CR>")
-vim.keymap.set("n", "<leader>ff", "<CMD>Telescope find_files<CR>")
+-- mini.pick
+vim.keymap.set("n", "<leader>fg", "<CMD>Pick grep_live<CR>")
+vim.keymap.set("n", "<leader>ff", "<CMD>Pick files<CR>")
 
 -- lsp handling
 vim.keymap.set("n", "<leader>lf", vim.lsp.buf.format)

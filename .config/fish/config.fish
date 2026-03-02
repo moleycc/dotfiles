@@ -3,7 +3,7 @@ end
 
 ### ALIASES ###
 # navigation
-alias .="cd ~/vault"
+alias cdd="cd ~/vault"
 
 # python
 alias py="python3"
@@ -17,7 +17,6 @@ alias vi="nvim"
 alias love="/Applications/love.app/Contents/MacOS/love"
 
 ### PATH VARIABLES ###
-fish_add_path ~/.emacs.d/bin
 fish_add_path ~/go/bin
 
 # launch starship
